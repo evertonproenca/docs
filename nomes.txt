@@ -1,0 +1,4 @@
+RA 06008878 - Everton da Silva Proença - Gerente
+RA 06008877 - Leandro Oliveira Moreira - Responsável pelo Controller
+RA 06008883 - Fabio Sodre da Silva - Responsável pelo Model
+RA 06008989 - Tony Kiyohiro Hashimoto - Responsável pelo View
