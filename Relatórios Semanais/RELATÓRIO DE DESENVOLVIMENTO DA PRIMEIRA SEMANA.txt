@@ -1,0 +1,62 @@
+RELATÓRIO DE DESENVOLVIMENTO DA PRIMEIRA SEMANA
+
+RESUMO GERAL
+
+	A principio houve alguns contratempos no desenrolar do projeto devido ao fato de necessitarmos achar uma base para o iniciar o projeto, após determinadas as etapas do desenvolvimento o projeto caminhou de forma mais simples já que a equipe optou por iniciar com a elaboração do formulário em HTML por parte do responsável pela VIEW, fazendo assim com que o mesmo pode-se trabalhar na conversão de HTML para um arquivo em linguagem PHP, enquanto de forma meio paralela o responsável pelo MODEL pude-se ir dando inicio na elaboração do banco de dados em MySQL, enquanto isso eu como GERENTE e o responsável pelo CONTROLLER ficamos acompanhando o desenvolvimento em busca de possíveis falhas que poderiam passa despercebidas pelas seus desenvolvedores .
+
+	Após a conclusão das partes da VIEW e da conclusão parcial do MODEL, o CONTROLLER pode dar inicio as suas atividades e juntar ambas as partes para finalizarmos a primeira etapa do projeto, sendo que em um determinado momento houve a necessidade da interação de ambos os 3 desenvolvedores para que houve-se uma boa comunicação e interação na hora da finalização.
+
+
+RESUMO DA VIEW
+
+	A principio o desafio inicial para o responsável pela viu fui na utilização da linguagem PHP, e na parte de junção com o formulário em HTML, após esse breve contratempo houve um grande adaptação da linguagem pelo mesmo.
+
+
+
+RESUMO DO MODEL
+
+	Para este desenvolvedor sua dificuldade fui na elaboração de algumas validações, porém algo passageiro.
+
+
+RESUMO DO CONTROLLER
+	
+	O principal problema para este desenvolvedor fui ter que necessitar da finalização das outras duas partes para que pode-se dar procedimento em seu trabalho de forma mais elaborada; porém observou-se que este é um contratempo que no decorrer do projeto pode ser contornado pois o mesmo já possuirá uma base para ir dando procedimento enquanto aguarda a conclusão das outras partes.
+
+
+CRONOGRAMA – 1ª SEMANA
+
+VIEW
+
+1ª SEMANA: CONSTRUIR O FORMULÁRIO
+- CRIAR OS CAMPOS DADOS CADASTRAIS – CONCLUÍDO
+- CRIAR OS CAMPOS MARKETING/COMUNICAÇÃO – CONCLUÍDO
+- CRIAR OS CAMPOS PREÇOS – CONCLUÍDO
+- IMPLEMENTAR A VIEW NO PHP – CONCLUÍDO
+
+=========================================================================
+MODEL
+
+1ª SEMANA: INICIAR A CONSTRUÇÃO DO BANCO DE DADOS
+- GERAR NO BANCO OS DADOS CADASTRAIS – CONCLUÍDO
+- GERAR NO BANCO O MARKETING E COMUNICAÇÃO – CONCLUÍDO
+- GERAR NO BANCO PREÇOS – CONCLUÍDO
+- IMPLEMENTAR NO PHP – CONCLUÍDO
+
+=========================================================================
+CONTROLLER
+
+1ª SEMANA: INICIAR A LIGAÇÀO DO BANCO DE DADOS E DA VIEW
+- IMPLEMENTAR OS COMANDOS INSERT, DELETE E SELECT DOS CAMPOS: DADOS CADASTRAIS, MARKETING E COMUNICAÇÃO, PREÇOS – CONCLUÍDO
+- INTERLIGAR A PRIMEIRA PARTE DA VIEW COM A PRIMEIRA PARTE DO MODEL – CONCLUÍDO
+
+
+=========================================================================
+GERENTE
+
+1ª SEMANA: INICIANDO A GERENCIA DO PROJETO
+- GERAR O CRONOGRAMA – CONCLUÍDO
+- DISTRIBUIR AS TAREFAS DA PRIMEIRA SEMANA – CONCLUÍDO
+- REALIZAR O RELATÓRIO DA SEMANA – CONCLUÍDO
+- VER O ANDAMENTO DO PROJETO NA SEMANA INICIAL – CONCLUÍDO
+
+
