@@ -1,0 +1,56 @@
+RELATÓRIO DE DESENVOLVIMENTO DA PRIMEIRA SEMANA
+
+RESUMO GERAL
+
+	Diferente da primeira semana o desenrolar do projeto na segunda semana foi mais tranquilo devido a experiência adquirida na semana anterior, o desenvolvimento ocorreu bem mais simples e sem grandes complicações, pois a equipe já sabia como resolver ou contornar alguns erros que poderiam aparecer durante sua elaboração. Sendo assim o projeto teve um desenrolar mais fácil para todos os envolvidos no projeto.
+
+	O projeto seguiu conforme o cronograma sem nenhum contratempo ou problema, ou seja, obteve-se um desempenho melhor em seu desenvolvimento, sendo que que a equipe pode fazer um análise melhor sobre seu desempenho e chegando à conclusão que na semana seguinte poderá ser reservado um tempo maior para a procura e correção de erros.
+
+RESUMO DA VIEW
+
+	A princípio não houve complicações.
+
+RESUMO DO MODEL
+	
+	Também não houve problema ou complicações.
+
+RESUMO DO CONTROLLER
+
+	Assim como os demais o responsável pelo controller também não encontrou problemas que atrasassem ou comprometessem o desenvolvimento do projeto.
+
+CRONOGRAMA – 2ª SEMANA
+
+VIEW
+
+2ª SEMANA: CONTINUAR A CONSTRUÇÃO DO FORMULÁRIO
+- CRIAR OS CAMPOS VENDAS – CONCLUÍDO.
+- CRIAR OS CAMPOS COMPRAS – CONCLUÍDO.
+- CRIAR OS CAMPOS CLIENTES – CONCLUÍDO.
+- IMPLEMENTAR A VIEW NO PHP – CONCLUÍDO.
+
+=========================================================================
+MODEL
+
+2ª SEMANA: 
+- GERAR NO BANCO AS VENDAS – CONCLUÍDO.
+- GERAR NO BANCO AS COMPRAS – CONCLUÍDO.
+- GERAR NO BANCO OS CLIENTES – CONCLUÍDO.
+- IMPLEMENTAR NO PHP – CONCLUÍDO.
+
+=========================================================================
+CONTROLLER
+
+2ª SEMANA: DAR CONTINUIDADE NA LIGAÇÀO DO BANCO DE DADOS E DA VIEW
+- IMPLEMENTAR OS COMANDOS INSERT, DELETE E SELECT DOS CAMPOS: VENDAS, COMPRAS E CLIENTES – CONCLUÍDO.
+- INTERLIGAR A SEGUNDA PARTE DA VIEW COM A SEGUNDA PARTE DO MODEL – CONCLUÍDO.
+
+=========================================================================
+GERENTE
+
+2ª SEMANA: ANALISAR O DESENVOLVIMENTO DO PROJETO
+- DISTRIBUIR AS TAREFAS DA SEGUNDA SEMANA – CONCLUÍDO.
+- REALIZAR O RELATÓRIO DA SEMANA – CONCLUÍDO.
+- VERIFICAR O ATUAL DESEMPENHO DO PROJETO – CONCLUÍDO.
+- LISTAR OS PRINCIPAIS ERROS ENCONTRADOS NO PROJETO – CONCLUÍDO.
+- ANALISAR POSSIVEIS SOLUÇÕES PARA CORREÇÃO DE ALGUNS ERROS – CONCLUÍDO.
+
