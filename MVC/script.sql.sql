@@ -40,3 +40,45 @@ CREATE TABLE `preco` (
   `forma_preco` varchar(20) NOT NULL,
   `preco_conc` varchar(10) NOT NULL,
 ) ENGINE=InnoDB;
+
+CREATE TABLE `venda` (
+`fat_MesAno` double(),
+`fat_valor` double(),
+`mov_incio` data,
+`mov_fim` date,
+`mov_dia` char(3),
+`mov_horario` CHAR(5),
+`form_pag` Varchar(20),
+`vlr_diario` double(),
+`vlr_mensal` double(),
+)ENGINE=InnoDB;
+
+
+CREATE TABLE `compra` (
+`razao` varchar(80),
+`uf` CHAR(2),
+`produto` varchar(60),
+`lot_minimo` int(),
+`rela_forn` varchar(30),
+`vlrCompra_mesAno` double(),
+`vlr_compra` double()
+)ENGINE=InnoDB;
+
+
+CREATE TABLE `perfCliente` (
+`cli_mensal` int(),
+`perf_classA` float(),
+`perf_classB` float(),
+`perf_classC` float(),
+`perf_classD` float(),
+`perf_idadeA` float(),
+`perf_idadeB` float(),
+`perf_idadeC` float(),
+`perf_idadeD` float(),
+`perf_masc` float(),
+`perf_fem` float(),
+`venEmp_situ` CHAR(3),
+`perct_fat` float(),
+`vpesquisa_resp` varchar(15),
+`frequencia` float()
+)ENGINE=InnoDB;
