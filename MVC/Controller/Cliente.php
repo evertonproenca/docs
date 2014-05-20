@@ -58,7 +58,46 @@ echo 'Cadastro excluído com sucesso';
             $vo->setFormaPreco($_POST['forma_preco']);
             $vo->setPrecoConc($_POST['preco_conc']);
 			
+        // Venda
             
+            $vo->setFatMesAno($_POST['fat_MesAno']);
+            $vo->setFatValor($_POST['fat_valor']);           
+            $vo->setMovIncio($_POST['mov_incio']);           
+            $vo->setMovFim($_POST['mov_fim']);           
+            $vo->setMovDia($_POST['mov_dia']);            
+            $vo->setMovHorario($_POST['mov_horario']);	            
+            $vo->setFormPag($_POST['form_pag']);           
+            $vo->setVlrDiario($_POST['vlr_diario']);             
+            $vo->setVlrMensal($_POST['vlr_mensal']);
+            
+        // Compra    
+            
+            $vo->setRazao($_POST['razao']);			
+            $vo->setUf($_POST['uf']);			
+            $vo->setProduto($_POST['produto']);           
+            $vo->setLoteMin($_POST['lot_minimo']);
+            $vo->setRelaForn($_POST['rela_forn']);
+            $vo->setVlrCompraMesAno ($_POST['vlrCompra_mesAno']);
+            $vo->setVlrCompra($_POST['vlr_compra']);
+                     
+        // Clientes
+           
+            $vo->setCliMensal($_POST['cli_mensal']);
+            $vo->setPerfilClasseA($_POST['perf_classA']);
+            $vo->setPerfilClasseB($_POST['perf_classB']);
+            $vo->setPerfilClasseC($_POST['perf_classC']);
+            $vo->setPerfilClasseD($_POST['perf_classD']);          
+            $vo->setPerfilIdadeA($_POST['perf_idadeA']);
+            $vo->setPerfilIdadeA($_POST['perf_idadeB']);
+            $vo->setPerfilIdadeA($_POST['perf_idadeC']);
+            $vo->setPerfilIdadeA($_POST['perf_idadeD']);
+            $vo->setPerfilMasc($_POST['perf_masc']);
+            $vo->setPerfilFem($_POST['perf_fem']);          
+            $vo->setVenEmpSituacao($_POST['venEmp_situ']);          
+            $vo->setPerctFat($_POST['perct_fat']);	  
+            $vo->setVPesquisaResp($_POST['vpesquisa_resp']);	           
+            $vo->setFrequencia($_POST['frequencia']); 
+             
             $model = new Model_Cliente();
             try {
                 $pk = $model->cadastrar($vo);
