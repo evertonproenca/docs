@@ -206,6 +206,198 @@ divulgado nenhum tipo de informações contidas neste documento.</p1>
                             </form><br>
                              
                     </fieldset>
+                    <fieldset>
+                        <legend><strong>4. VENDA</strong></legend>
+                        <p3><strong>4.1</strong> - Faturamento dos últimos 6 meses (do mais recente para o anterior).</p3><br>
+                        <table border="3" style="width:850px">
+                                    <tr>         
+                                        <td><strong>Mês/Ano</strong></td>
+                                        <td><strong>Faturamento em R$</strong></td> 
+                                        <td><strong>Mês/Ano</strong></td> 
+                                        <td><strong>Faturamento em R$</strong></td>                                        
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="FatMesAno1"></td>
+                                        <td><input type="text" name="FatRS1"></td> 
+                                        <td><input type="text" name="FatMesAno2"></td>
+                                        <td><input type="text" name="FatRS2"></td>  
+                                        
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="FatMesAno3"></td>
+                                        <td><input type="text" name="FatRS3"></td> 
+                                        <td><input type="text" name="FatMesAno4"></td>
+                                        <td><input type="text" name="FatRS4"></td>
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="FatMesAno5"></td>
+                                        <td><input type="text" name="FatRS5"></td> 
+                                        <td><input type="text" name="FatMesAno6"></td>
+                                        <td><input type="text" name="FatRS6"></td>
+                                    </tr>
+                                    
+                        </table><br>
+                        <p3><strong>4.2</strong> - Dias da semana de maior movimento? Período do mês:</p3>  
+                        <input type="text" name="dataInicio"> a <input type="text" name="dataFim"><br>
+                        <table border="3" style="width:830px">
+                                    <tr>         
+                                        <td><label><input type="checkbox" name="seg" value="segunda">Seg</label></td>
+                                        <td><label><input type="checkbox" name="ter" value="terça">Ter</label></td> 
+                                        <td><label><input type="checkbox" name="qua" value="quarta">Qua</label></td> 
+                                        <td><label><input type="checkbox" name="qui" value="quinta">Qui</label></td>  
+                                        <td><label><input type="checkbox" name="sex" value="sexta">Sex</label></td> 
+                                        <td><label><input type="checkbox" name="sab" value="sábado">Sáb</label></td> 
+                                        <td><label><input type="checkbox" name="dom" value="domingo">Dom</label></td> 
+                                    </tr>  
+                             </table><br>
+                        <p3><strong>4.3</strong> - Quais horários de maior movimento?</p3><br>
+                            <form action="">
+                                    <label><input type="radio" name="MovPeriodoDia" value="manha">Manhã</label>
+                                    <label><input type="radio" name="MovPeriodoDia" value="tarde">Tarde</label> 
+                                    <label><input type="radio" name="MovPeriodoDia" value="noite">Noite</label> <br>                                                                       
+                            </form><br>
+                        <p3><strong>4.4</strong> - Forma de pagamento oferecidas aos clientes?</p3>
+                            <table border="3" style="width:800px">
+                                    <tr>         
+                                        <td><label><input type="checkbox" name="chequePre" value="cheque">Cheque pré-datado</label></td>
+                                        <td><label><input type="checkbox" name="ticket" value="ticket">Ticket</label></td> 
+                                        <td><label><input type="checkbox" name="cartaoCred" value="cartaoCred">Cartão de crédito</label></td>                                          
+                                    </tr>  
+                                    <tr>
+                                        <td><label><input type="checkbox" name="caderneta" value="caderneta">Caderneta</label></td>  
+                                        <td><label><input type="checkbox" name="aVista" value="vista">a vista</label></td> 
+                                        <td><label><input type="checkbox" name="outro" value="outro">Outra? Qual?</label></td>                                       
+                                    
+                                    </tr>
+                                    <tr>
+                                        <td>Outros:<input type="text" name="outros"></td>
+                                    </tr>    
+                             </table><br>
+                             <p3><strong>4.5</strong> - Qual o valor médio de compras por cliente?</p3>
+                            <table border="3" style="width:600px">
+                                    <tr>         
+                                        <td>Por Vez:<input type="text" name="outros"></td>
+                                        <td>Mensal:<input type="text" name="outros"></td>
+                                    </tr>
+                            </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>5. COMPRAS</strong></legend>
+                        
+                        <p3><strong>5.1</strong> - Quais são seus principais fornecedores?</p3>
+                        <table border="3" style="width:850px">
+                                    <tr>         
+                                        <td><strong>Razão Social/Fantasia</strong></td>
+                                        <td><strong>Cidade - UF</strong></td> 
+                                        <td><strong>Produtos</strong></td> 
+                                        <td><strong>Exigência Lote mínimo. Qual?</strong></td> 
+                                        <td><strong>Relacionamento</strong></td> 
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="razaoFant1"></td>
+                                        <td><input type="text" name="CidUf1"></td> 
+                                        <td><input type="text" name="Prod1"></td> 
+                                        <td><input type="text" name="LoteMin1"></td> 
+                                        <td><input type="text" name="Relac1"></td> 
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="razaoFant2"></td>
+                                        <td><input type="text" name="CidUf2"></td> 
+                                        <td><input type="text" name="Prod2"></td> 
+                                        <td><input type="text" name="LoteMin2"></td> 
+                                        <td><input type="text" name="Relac2"></td>  
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="razaoFant3"></td>
+                                        <td><input type="text" name="CidUf3"></td> 
+                                        <td><input type="text" name="Prod3"></td> 
+                                        <td><input type="text" name="LoteMin3"></td> 
+                                        <td><input type="text" name="Relac1"></td> 
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="razaoFant4"></td>
+                                        <td><input type="text" name="CidUf4"></td> 
+                                        <td><input type="text" name="Prod4"></td> 
+                                        <td><input type="text" name="LoteMin4"></td> 
+                                        <td><input type="text" name="Relac4"></td>  
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="razaoFant4"></td>
+                                        <td><input type="text" name="CidUf4"></td> 
+                                        <td><input type="text" name="Prod4"></td> 
+                                        <td><input type="text" name="LoteMin4"></td> 
+                                        <td><input type="text" name="Relac4"></td> 
+                                    </tr>
+                        </table><br>
+                        <p3><strong>5.2</strong> - Qual valor das suas compras nos últimos 6 meses? (do mais recente para o anterior).</p3><br>
+                        <table border="3" style="width:850px">
+                                    <tr>         
+                                        <td><strong>Mês/Ano</strong></td>
+                                        <td><strong>Compras em R$</strong></td> 
+                                        <td><strong>Mês/Ano</strong></td> 
+                                        <td><strong>Compras em R$</strong></td>                                        
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="FatMesAno1"></td>
+                                        <td><input type="text" name="FatRS1"></td> 
+                                        <td><input type="text" name="FatMesAno2"></td>
+                                        <td><input type="text" name="FatRS2"></td>  
+                                        
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="FatMesAno3"></td>
+                                        <td><input type="text" name="FatRS3"></td> 
+                                        <td><input type="text" name="FatMesAno4"></td>
+                                        <td><input type="text" name="FatRS4"></td>
+                                    </tr>
+                                    <tr>         
+                                        <td><input type="text" name="FatMesAno5"></td>
+                                        <td><input type="text" name="FatRS5"></td> 
+                                        <td><input type="text" name="FatMesAno6"></td>
+                                        <td><input type="text" name="FatRS6"></td>
+                                    </tr>
+                                    
+                        </table><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>6. CLIENTES</strong></legend>
+                        <p3><strong>6.1</strong> - Quantos clientes atende por mês?</p3>
+                        <input type="text" name="qtdeCli"><br>
+                        <p3><strong>6.2</strong> - Qual é o perfil do seu cliente?.</p3><br>
+                        <table border="3" style="width:900px">
+                                    <tr>         
+                                        <td><strong>%Classe A</strong><input type="text" name="FatMesAno1"></td>
+                                        <td><strong>%Classe B</strong><input type="text" name="FatMesAno1"></td> 
+                                        <td><strong>%Classe C</strong><input type="text" name="FatMesAno1"></td> 
+                                        <td><strong>%Classe D</strong><input type="text" name="FatMesAno1"></td>                                        
+                                    </tr>
+                                    <tr>         
+                                        <td><strong>%0 a 18 anos</strong><input type="text" name="FatMesAno1"></td>
+                                        <td><strong>%19 a 30 anos</strong><input type="text" name="FatMesAno1"></td> 
+                                        <td><strong>%31 a 45 anos</strong><input type="text" name="FatMesAno1"></td> 
+                                        <td><strong>%Acima de 46 anos</strong><input type="text" name="FatMesAno1"></td>                                        
+                                    </tr>
+                                    <tr>         
+                                        <td><strong>%Masculino</strong><input type="text" name="FatMesAno1"></td>
+                                        <td><strong>%Feminino</strong><input type="text" name="FatMesAno1"></td> 
+                                                                                
+                                    </tr>                                
+                        </table><br>
+                        <p3><strong>6.3</strong> - Vende para empresas?</p3><br>
+                            <form action="">
+                                    <label><input type="radio" name="VendeEmp" value="Sim">Sim, Quantos % representa do total do faturamento?</label>                                     
+                                    <label><input type="radio" name="VendeEmp" value="nao">Não</label> <br>
+                                    <input type="text" name="outros">                                    
+                            </form><br>
+                        <p3><strong>6.4</strong> - Faz pesquisas com seus clientes?</p3><br>
+                            <form action="">
+                                    <label><input type="radio" name="PesqCli" value="Sim">Sim, frequência?</label>  
+                                    <label><input type="radio" name="PesqCli" value="nao">Não, mas já fiz.</label>
+                                    <label><input type="radio" name="PesqCli" value="nao">Nunca fiz.</label> <br>
+                                    <input type="text" name="frequencia">                                    
+                            </form><br>                            
+                        
+                    </fieldset>
                     <input type="submit" value="Confirmar">
                     <input type="submit" value="Listar">
                     <input type="button" value="Excluir">
