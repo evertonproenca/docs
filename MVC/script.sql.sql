@@ -82,3 +82,38 @@ CREATE TABLE `perfCliente` (
 `vpesquisa_resp` varchar(15),
 `frequencia` float()
 )ENGINE=InnoDB;
+
+CREATE TABLE `recursos_humanos` (
+  `colab` int(),
+  `colab_treino` varchar(40),
+  `escolaridade` varchar(15),
+  `crit_colab` varchar(35),
+  `fat_cand` varchar(15),
+  `atv_mot` varchar(25),
+  `demi_contrat` varchar(100)
+) ENGINE=InnoDB;
+
+CREATE TABLE `administ_FinanContabil`(
+  `fluxo_caixa` varchar(15),
+  `controle_est` varchar(15),
+  `contas_pagar` varchar(15),
+  `contas_receb` varchar(15),
+  `adm_compra` varchar(15),
+  `adm_venda` varchar(15),
+  `faturamento` varchar(15),
+  `outros` varchar(40),
+  `planej` varchar(30),
+  `recurs_terc` varchar(30),
+  `maior_gasto` varchar(30),
+) ENGINE=InnoDB;
+
+CREATE TABLE `administ_FinanContabil`(
+  `impost` CHAR(3),
+  `atu_fiscal` CHAR(3),
+  `acao_judi` CHAR(3),
+  `trat_forn` varchar(15),
+  `cob_emp` varchar(20),
+  `ass_juridica` CHAR(3),
+  `parc_acic` varchar(100),
+  `parc_unipar` varchar(100)
+) ENGINE=InnoDB;
