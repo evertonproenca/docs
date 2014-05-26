@@ -1,0 +1,51 @@
+RELATÓRIO DE DESENVOLVIMENTO DA TERCEIRA SEMANA
+
+RESUMO GERAL
+
+	Assim como na segunda semana o projeto ocorreu de forma tranquila devido a experiência adquirida nas semanas anteriores, o desenvolvimento ocorreu bem e sem grandes complicações, pois a equipe já sabia como resolver e contornar alguns erros que poderiam aparecer durante sua elaboração. Sendo assim o projeto teve um desenrolar mais fácil para todos os envolvidos.
+
+	O projeto seguiu conforme o cronograma no entanto, surgiu um pequeno contratempo na parte da View com relação ao Bootstrap, fora algumas alterações que foram necessárias para o seu desenvolvimento, porém nada que pudesse ser considerado grave.
+
+RESUMO DA VIEW
+
+	O principal problema que o responsável pela View encontrou durante o desenrolar dessa semana foi a implantação do Bootstrap ao formulário.
+
+RESUMO DO MODEL
+
+	O responsável pelo Model não teve grandes dificuldades e problemas na terceira semana..
+
+RESUMO DO CONTROLLER
+
+	Para o controller não encontrou problemas que atrasassem ou comprometessem o desenvolvimento do projeto.
+
+CRONOGRAMA – 3 SEMANA
+
+VIEW
+
+3ª SEMANA: FINALIZA A CONSTRUÇÃO DO FORMULÁRIO E IMPLEMENTAR O BOOSTRAP
+- CRIAR OS CAMPOS RECURSOS HUMANOS - CONCLUÍDO
+- CRIAR OS CAMPOS ADMINISTRATIVO/FINANCEIRO/CONTÁBIL - CONCLUÍDO
+- INSERIR O TWITTER BOOSTRAP NO FORMULÁRIO - INCOMPLETO
+
+=========================================================================
+MODEL
+
+3ª SEMANA: FINALIZA A CONSTRUÇÃO DO BANCO
+- GERAR NO BANCO OS RECURSOS HUMANOS - CONCLUÍDO
+- GERAR NO BANCO O ADMINISTRATIVO/FINANCEIRO/CONTÁBIL - CONCLUÍDO
+- IMPLEMENTAR AS DEVIDAS VALIDAÇÕES E METODOS - CONCLUÍDO
+=========================================================================
+CONTROLLER
+
+3ª SEMANA: FINALIZAR A LIGAÇÀO DO BANCO DE DADOS E DA VIEW
+- IMPLEMENTAR OS COMANDOS INSERT, DELETE E SELECT DOS CAMPOS: RECURSOS HUMANOS E ADMINISTRATIVO/FINANCEIRO/CONTÁBIL - CONCLUÍDO
+- INTERLIGAR A TERCEIRA PARTE DA VIEW COM A TERCEIRA PARTE DO MODEL - CONCLUÍDO
+
+=========================================================================
+GERENTE
+
+3ª SEMANA: GERENCIAR FASES DE TESTES
+- DISTRIBUIR AS TAREFAS DA TERCEIRA SEMANA - CONCLUÍDO
+- REALIZAR O RELATÓRIO DA SEMANA - CONCLUÍDO
+- VERIFICAR O ATUAL DESEMPENHO DO PROJETO - CONCLUÍDO
+- VERIFICAR SE OS ERROS ENCONTRADOS NA SEMANA ANTERIOR FORAM CORRIGIDOS - CONCLUÍDO
