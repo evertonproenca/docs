@@ -4,13 +4,13 @@ class Controller_Cliente extends Controller {
 
     public function apagar() {
       
-$id = (int)$_POST['id'];
+	$id = (int)$_POST['id'];
 
-$sql = "DELETE FROM servicos WHERE id={$id}";
+	$sql = "DELETE FROM servicos WHERE id={$id}";
 
-$resultado = mysql_query( $sql )or die ( mysql_error() );
+	$resultado = mysql_query( $sql )or die ( mysql_error() );
 
-echo 'Cadastro excluído com sucesso';
+	echo 'Cadastro excluído com sucesso';
 
     }
     public function cadastrar() {
@@ -18,6 +18,9 @@ echo 'Cadastro excluído com sucesso';
    $view = new View();
         
         if ($_POST) {
+		
+	public function	validar();
+	
             $vo = new Vo_Cliente();
             $vo->setRazao($_POST['razao_social']);
             $vo->setNomeFantasia($_POST['nome_fantasia']);
@@ -98,6 +101,38 @@ echo 'Cadastro excluído com sucesso';
             $vo->setVPesquisaResp($_POST['vpesquisa_resp']);	           
             $vo->setFrequencia($_POST['frequencia']); 
              
+// // //   // Recursos Humanos  
+            
+           $vo->setColab($_POST['colab']);
+            $vo->setColabTreino($_POST['colab_treino']);
+            $vo->setEscolaridade($_POST['escolaridade']);
+            $vo->setCritColab($_POST['crit_colab']);   
+            $vo->setFatCand($_POST['fat_cand']);               
+            $vo->setAtvMot($_POST['atv_mot']);          
+            $vo->setDemiContrat($_POST['demi_contrat']);
+            
+ // // //   // Administ Finan Contabil
+            
+           $vo->setFluxoCaixa($_POST['fluxo_caixa']);
+            $vo->setControleEst($_POST['controle_est']);         
+            $vo->setContasPagar($_POST['contas_pagar']);           
+            $vo->setContasPagar($_POST['contas_receb']);            
+            $vo->setAdmCompra($_POST['adm_compra']);      
+            $vo->setAdmVenda($_POST['adm_venda']);
+            $vo->setFaturamento($_POST['faturamento']);            
+            
+// // // // Administ Finan Contabil
+            
+           $vo->setImpost($_POST['impost']);
+            $vo->setAtuFiscal($_POST['atu_fiscal']);
+            $vo->setAcaoJudi($_POST['acao_judi']);
+            $vo->setTratForn($_POST['trat_forn']);          
+            $vo->setCobEmp($_POST['cob_emp']);                
+            $vo->setAssJuridica($_POST['ass_juridica']);            
+            $vo->setParcAcic($_POST['parc_acic']);          
+            $vo->setParcUnipar($_POST['parc_unipar']);
+            
+           
             $model = new Model_Cliente();
             try {
                 $pk = $model->cadastrar($vo);
@@ -124,6 +159,81 @@ echo 'Cadastro excluído com sucesso';
 
     public function alterar() {
         
+    }
+
+    public function validar() {
+	
+	
+        if (!empty($_POST['razao_social'])) {
+return true;
+} else {
+	echo 'O campo Razão Social precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['cnpj'])) {
+return true;
+} else {
+	echo 'O campo CNPJ precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['data_fun'])) {
+return true;
+} else {
+	echo 'O campo Data de Fundação precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['ramo_atv'])) {
+return true;
+} else {
+	echo 'O campo Ramo de Atividade precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['endereco'])) {
+return true;
+} else {
+	echo 'O campo endereço precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['bairro'])) {
+return true;
+} else {
+	echo 'O campo bairro precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['cep'])) {
+return true;
+} else {
+	echo 'O campo CEP precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['cidade'])) {
+return true;
+} else {
+	echo 'O campo Cidade precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['telefone'])) {
+return true;
+} else {
+	echo 'O campo Telefone precisa ser preenchido';
+	return false;
+}
+
+if (!empty($_POST['email'])) {
+return true;
+} else {
+	echo 'O campo Email precisa ser preenchido';
+	return false;
+}
+
     }
 
 }
