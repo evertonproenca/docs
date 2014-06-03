@@ -4,13 +4,23 @@ class Controller_Cliente extends Controller {
 
     public function apagar() {
       
-	$id = (int)$_POST['id'];
+	/*$id = (int)$_POST['id'];
 
 	$sql = "DELETE FROM servicos WHERE id={$id}";
 
 	$resultado = mysql_query( $sql )or die ( mysql_error() );
 
-	echo 'Cadastro excluído com sucesso';
+	echo 'Cadastro excluído com sucesso';*/
+	
+	 public function delete($where) {
+        $sql = 'DELETE FROM '
+                . $this->tabela
+                . ' WHERE ' . $where
+        ;
+
+        $con = Conexao::getInstance();
+        return $con->query($sql);
+    }
 
     }
     public function cadastrar() {
@@ -19,8 +29,6 @@ class Controller_Cliente extends Controller {
         
         if ($_POST) {
 		
-	public function	validar();
-	
             $vo = new Vo_Cliente();
             $vo->setRazao($_POST['razao_social']);
             $vo->setNomeFantasia($_POST['nome_fantasia']);
@@ -38,7 +46,7 @@ class Controller_Cliente extends Controller {
             $vo->setSocio($_POST['socio']);
             $vo->setCargo($_POST['cargo']);
 						
-	// marketing
+// marketing
 	
             $vo->setProduto($_POST['produto_Mven']);
             $vo->setNomeFantasia($_POST['nome_fantasia']);
@@ -56,12 +64,12 @@ class Controller_Cliente extends Controller {
             $vo->setSinalizao($_POST['sinalizacao']);
             $vo->setEspacoProm($_POST['espaco_prom']);
 					
-	// Preco		
+// Preco		
 			
             $vo->setFormaPreco($_POST['forma_preco']);
             $vo->setPrecoConc($_POST['preco_conc']);
 			
-        // Venda
+// Venda
             
             $vo->setFatMesAno($_POST['fat_MesAno']);
             $vo->setFatValor($_POST['fat_valor']);           
@@ -73,7 +81,7 @@ class Controller_Cliente extends Controller {
             $vo->setVlrDiario($_POST['vlr_diario']);             
             $vo->setVlrMensal($_POST['vlr_mensal']);
             
-        // Compra    
+// Compra    
             
             $vo->setRazao($_POST['razao']);			
             $vo->setUf($_POST['uf']);			
@@ -83,7 +91,7 @@ class Controller_Cliente extends Controller {
             $vo->setVlrCompraMesAno ($_POST['vlrCompra_mesAno']);
             $vo->setVlrCompra($_POST['vlr_compra']);
                      
-        // Clientes
+// Clientes
            
             $vo->setCliMensal($_POST['cli_mensal']);
             $vo->setPerfilClasseA($_POST['perf_classA']);
@@ -101,7 +109,7 @@ class Controller_Cliente extends Controller {
             $vo->setVPesquisaResp($_POST['vpesquisa_resp']);	           
             $vo->setFrequencia($_POST['frequencia']); 
              
-// // //   // Recursos Humanos  
+// Recursos Humanos  
             
            $vo->setColab($_POST['colab']);
             $vo->setColabTreino($_POST['colab_treino']);
@@ -111,7 +119,7 @@ class Controller_Cliente extends Controller {
             $vo->setAtvMot($_POST['atv_mot']);          
             $vo->setDemiContrat($_POST['demi_contrat']);
             
- // // //   // Administ Finan Contabil
+// Administ Finan Contabil
             
            $vo->setFluxoCaixa($_POST['fluxo_caixa']);
             $vo->setControleEst($_POST['controle_est']);         
@@ -121,7 +129,7 @@ class Controller_Cliente extends Controller {
             $vo->setAdmVenda($_POST['adm_venda']);
             $vo->setFaturamento($_POST['faturamento']);            
             
-// // // // Administ Finan Contabil
+// Administ Finan Contabil
             
            $vo->setImpost($_POST['impost']);
             $vo->setAtuFiscal($_POST['atu_fiscal']);
@@ -157,83 +165,5 @@ class Controller_Cliente extends Controller {
         $view->desenhar('cliente/listar');
     }
 
-    public function alterar() {
-        
-    }
-
-    public function validar() {
-	
-	
-        if (!empty($_POST['razao_social'])) {
-return true;
-} else {
-	echo 'O campo Razão Social precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['cnpj'])) {
-return true;
-} else {
-	echo 'O campo CNPJ precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['data_fun'])) {
-return true;
-} else {
-	echo 'O campo Data de Fundação precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['ramo_atv'])) {
-return true;
-} else {
-	echo 'O campo Ramo de Atividade precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['endereco'])) {
-return true;
-} else {
-	echo 'O campo endereço precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['bairro'])) {
-return true;
-} else {
-	echo 'O campo bairro precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['cep'])) {
-return true;
-} else {
-	echo 'O campo CEP precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['cidade'])) {
-return true;
-} else {
-	echo 'O campo Cidade precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['telefone'])) {
-return true;
-} else {
-	echo 'O campo Telefone precisa ser preenchido';
-	return false;
-}
-
-if (!empty($_POST['email'])) {
-return true;
-} else {
-	echo 'O campo Email precisa ser preenchido';
-	return false;
-}
-
-    }
-
+   
 }
