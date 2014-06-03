@@ -1,0 +1,48 @@
+RELATÓRIO DE DESENVOLVIMENTO DA QUARTA SEMANA
+
+RESUMO GERAL
+
+	Na reta final do projeto tivemos que transferir as validações que antes se encontravam na parte do Controller para o seu verdadeiro responsável que no caso é o Model, tirando este pequeno problema o projeto seguiu de forma normal. 
+
+	O projeto teve suas funções testadas e corresponderam as estimativas inicias de seus desenvolvedores.
+
+RESUMO DA VIEW
+
+	Na última semana o responsável pela View não encontrou problemas.
+
+RESUMO DO MODEL
+
+	Este teve um pequeno contratempo devido as novas funções das quais ficou incumbido, pois até o presente momento sua parte estava completa, mas atualmente está terminado.
+
+RESUMO DO CONTROLLER
+
+	Teve um pequeno problema na hora de mexer com o Excluir, porém o problema já encontra-se resolvido.
+
+CRONOGRAMA – 4 SEMANA
+
+VIEW
+
+4ª SEMANA:  FINALIZAR A PARTE DA VIEW;
+- FINALIZAR A IMPLEMENTAÇÃO DA VIEW - CONCLUÍDO
+=========================================================================
+
+MODEL
+
+4ª SEMANA:  FINALIZAR A PARTE DO MODEL;
+- FAZER OS TESTES FINAIS NO BANCO A PROCURA DE ERROS AO FINAL DO PROJETO - CONCLUÍDO
+=========================================================================
+
+CONTROLLER
+
+4ª SEMANA:  FINALIZAR A PARTE DA VIEW;
+- REALIZAR TESTES FINAIS DO PROJETO - CONCLUÍDO
+=========================================================================
+
+GERENTE
+
+4ª SEMANA:  ACOMPANHAR A FINALIZAÇÃO DO PROJETO;
+- DISTRIBUIR AS TAREFAS DA QUARTA SEMANA - CONCLUÍDO
+- REALIZAR O RELATÓRIO DA SEMANA - CONCLUÍDO
+- VERIFICAR O DESEMPENHO FINAL DO PROJETO - CONCLUÍDO
+- REALIZAR UM RELATÓRIO FINAL DO PROJETO – EM DESENVOLVIMENTO
+
