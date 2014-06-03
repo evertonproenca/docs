@@ -1,0 +1,31 @@
+RELATÓRIO FINAL DO PROJETO
+
+RESUMO GERAL 
+
+	O projeto iniciou-se de forma complicada devido a equipe se deparar com um projeto e funções que antes não tínhamos total domínio, porém com o decorrer das duas primeiras semana tivemos um grande avanço já que aprendemos a lidar cada um com sua função e como fazer.
+Um dos pontos que fizeram o projeto se tornar um pouco difícil de se trabalhar em equipe foi o fato dos membros serem de cidades diferentes e isso interferiu um pouco apesar de fazermos de tudo para nos comunicar. Apesar do GitHub ser uma grande ferramenta que nos auxiliou a mostrar o que cada um estava fazendo ainda assim ficava uma dúvida sobre o que o controller, view ou model estava pensando no momento em que fez e postou sua parte e o porquê de ter feito daquela forma, devido a isso tivemos que além de uma reunião semanal, nos mantermos em contato de forma constante utilizando de diversos meios (SMS, Google Drive, Vídeos, Vídeos Chamadas).
+	
+	Após essa novo sistema adotado o desenvolvimento se tornou muito mais fácil, na última semana e que encontramos o que poderia ser considerado um problema que poderia afetar a finalização do nosso projeto e causar a não conclusão do mesmo, entretanto com grande desempenho da equipe até o fim o projeto seguiu arduamente para terminar suas partes e encarar esse contratempo para o termino do projeto.
+
+OPINIÃO DA VIEW
+
+	Em seu ver houve no início uma pequena dificuldade da equipe em se adaptar ao projeto e as suas exigências (tempo, conhecimento, trabalho em equipe), passando este período tudo foi fluindo de forma mais simples.  
+
+OPINIÃO DO MODEL
+
+	Na opinião do responsável pelo Model o trabalho mostrou um exemplo de como é desenvolver um projeto em equipe sendo que cada um ficou responsável por uma parte sem que não foi permitido que um membro fizesse a função de dois assim como se é esperado em uma empresa.
+
+	Para ele um ponto ruim foi um pouco o nível de dificuldade do projeto mediante que a equipe se deparou com algo novo, fora do seu contexto habitual de trabalhos já que não tínhamos muita experiência nisso.
+
+OPINIÃO DO CONTROLLER
+
+	Um dos pontos legais desse projeto em equipe foi que você pode ficar focado na sua parte, mas em sua opinião o lado ruim é que em determinadas situações de quando se trabalha em equipe necessitasse aguardar a parte de outro membro para o termino de sua respectiva parte. Para ele outro fato que o agradou é que devido a este trabalho podemos ter uma boa noção de como funciona o MVC.
+
+OPINIÃO DO GERENTE
+
+	Este trabalho a princípio assustou e se mostrou difícil de ser realizado já que nenhum de nós possuía grandes conhecimentos sobre MVC fazendo com que fossemos obrigados a buscar aprender e a melhorar a cada semana.
+
+	Na minha opinião como gerente o trabalho em equipe foi algo que representou um fator muito importante principalmente para eu como gerente que tinha como função não só fiscalizar o desenvolvimento do projeto como gerenciar a equipe para um bem ou para o mau já faziam parte do meu cotidiano o que torna um pouco difícil a tomada de decisões já que tem que haver separação de situações pois não podia deixar que um membro pudesse afetar a equipe.
+
+	O projeto se mostrou algo interessante pois avaliou tanto nossos conhecimentos, empenho, trabalho em equipe, comprometimento e habilidades em aprender e se adaptar aos erros que vinham com o decorrer do projeto.
+
