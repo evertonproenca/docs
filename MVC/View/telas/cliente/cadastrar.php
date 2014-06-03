@@ -13,11 +13,51 @@ if (isset($this->dados['erro'])) {
 <html>
 	<head>
 		<title>Formulario de Cadastro</title>
+        <p>Projeto CIAPE – Centro Integrado de Apoio a Projetos Empresariais – UNIPAR/ACIC</p>
 	</head>
 	<body>
-
+        <style>
+                .textbox { 
+                border: 1px solid #c4c4c4; 
+                 
+                font-size: 13px; 
+                padding: 4px 4px 4px 4px; 
+                border-radius: 4px; 
+                -moz-border-radius: 4px; 
+                -webkit-border-radius: 4px; 
+                box-shadow: 0px 0px 8px #d9d9d9; 
+                -moz-box-shadow: 0px 0px 8px #d9d9d9; 
+                -webkit-box-shadow: 0px 0px 8px #d9d9d9; 
+                } 
+ 
+                .textbox:focus { 
+                 outline: none; 
+                 border: 1px solid #7bc1f7; 
+                box-shadow: 0px 0px 8px #7bc1f7; 
+                -moz-box-shadow: 0px 0px 8px #7bc1f7; 
+                -webkit-box-shadow: 0px 0px 8px #7bc1f7; 
+                } 
+                body {
+                    background-color: lavender;                  
+                }
+                table, td th
+                {
+                    border: 3px solid gray;
+                    width:400px;                    
+                }
+                th{
+                    background-color: gray;
+                    color:lightskyblue;
+                }
+                p {
+                     text-indent: 970px;
+                    font-size: 10px;
+                }
+                
+            </style>
 		<form action="cadastrar-usuarios.php" method="POST">
-
+                    <img src="logounipar.png">
+                    <img src="logoacic.png">
                     <center><h3>TERMO DE ADESÃO - PROJETO CIAPE UNIPAR/ACIC</h3></center>
                     <p2><strong>Informações Gerais:</strong></p2><p1> o questionário destina-se exclusivamente a obtenção de informações das
 empresas participantes do projeto CIAPE – UNIPAR/ACIC. Tem por finalidade criar indicadores
@@ -532,6 +572,43 @@ divulgado nenhum tipo de informações contidas neste documento.</p1>
                                     </tr>    
                              </table><br>
                     </fieldset>
+                    <fieldset>
+                        <legend><strong>9. JURIDICO</strong></legend>
+                        <p3><strong>9.1</strong> - Você conhece todos os impostos devidos pela sua empresa?</p3>
+                            <form action="">
+                                    <label><input type="radio" name="impostos" value="Sim">Sim.</label>  
+                                    <label><input type="radio" name="impostos" value="nao">Não.</label> <br>
+                            </form>  
+                        <p3><strong>9.2</strong> - Você já recebeu alguma autuação de fiscalização?</p3>
+                            <form action="">
+                                    <label><input type="radio" name="autuacaoFis" value="Sim">Sim.</label>  
+                                    <label><input type="radio" name="autuacaoFis" value="nao">Não.</label> <br>
+                            </form>
+                        <p3><strong>9.3</strong> - Sua empresa está respondendo alguma ação judicial, inclusive trabalhista?</p3>
+                            <form action="">
+                                    <label><input type="radio" name="respAcaoJud" value="Sim">Sim.</label>  
+                                    <label><input type="radio" name="respAcaoJud" value="nao">Não.</label> <br>
+                            </form>
+                        <p3><strong>9.4</strong> - Suas tratativas com seus fornecedores são:</p3>
+                            <form action="">
+                                    <label><input type="radio" name="tratForn" value="verbais">Verbais.</label>  
+                                    <label><input type="radio" name="tratForn" value="contratos">Com contrato.</label> <br>
+                            </form>
+                        <p3><strong>9.5</strong> - Como você realiza suas cobranças na empresa?</p3>
+                            <form action="">
+                                    <label><input type="radio" name="CobrancaEmp" value="EmpCobranca">Empresa de cobrança.</label>  
+                                    <label><input type="radio" name="CobrancaEmp" value="Colab">Colaborador.</label> 
+                                    <label><input type="radio" name="CobrancaEmp" value="Pessoalmente">Pessoalmente.</label> 
+                                    <label><input type="radio" name="CobrancaEmp" value="Outros">Outros.</label> <br>
+                            </form>
+                        <p3><strong>9.6</strong> - Tem assessoria jurídica?</p3>
+                            <form action="">
+                                    <label><input type="radio" name="assesJud" value="Sim">Sim.</label>  
+                                    <label><input type="radio" name="assesJud" value="nao">Não.</label> <br>
+                            </form>
+                    </fieldset>
+                    <strong><p3>Observações:</p3></strong><br>
+                    <textarea name="texto" rows="6" cols="60"></textarea><br><br>
                     <input type="submit" value="Cadastrar">
                     <input type="submit" value="Listar">
                     <input type="button" value="Excluir">
