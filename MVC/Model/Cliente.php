@@ -79,4 +79,13 @@ return true;
 }
     }
     
+    if (!empty($_POST['concorrente'])) {
+return true;
+} else {
+	echo 'O campo Concorrente precisa ser preenchido pelo menos uma vez';
+	return false;
+}
+    }
+    
+    
 }
