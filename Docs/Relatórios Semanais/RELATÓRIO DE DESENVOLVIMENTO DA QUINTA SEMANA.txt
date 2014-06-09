@@ -1,0 +1,45 @@
+RELATÓRIO DE DESENVOLVIMENTO DA QUINTA SEMANA
+
+RESUMO GERAL
+
+	Esta última semana foi a mais complicada devido a alguns fatos que antes não se encontravam presentes e que surgiram com o decorrer desta última semana, mas com grande desempenho da equipe pode-se contornar a situação.
+
+RESUMO DA VIEW
+
+	Até o presente momento não encontrou algo que pode-se ser considerado um grande mporblema que pode-se prejudicar o desenvolver do projeto.
+
+RESUMO DO MODEL
+	
+	Obteve uma pequena dificuldade nas validações finais, mas já se encontram corrigidas.
+
+RESUMO DO CONTROLLER
+
+	Não obteve dificuldades nesta semana.
+
+
+CRONOGRAMA – 5ª SEMANA
+
+VIEW
+
+5ª SEMANA: FINALIZAR
+- FINALIZAR FORMULÁRIO - COMPLETO
+
+=========================================================================
+
+MODEL
+
+5ª SEMANA: FINALIZAR
+- FINALIZAR FORMULÁRIO - COMPLETO
+=========================================================================
+
+CONTROLLER
+
+5ª SEMANA: FINALIZAR
+- FINALIZAR FORMULÁRIO - COMPLETO
+=========================================================================
+
+GERENTE
+
+5ª SEMANA: FINALIZAR
+- DISTRIBUIR AS TAREFAS DA QUINTA SEMANA - CONCLUÍDO
+- REALIZAR O RELATÓRIO DA SEMANA - CONCLUÍDO
