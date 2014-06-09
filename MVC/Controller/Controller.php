@@ -5,5 +5,5 @@ abstract class Controller {
     
     abstract public function listar();
       
-    abstract public function apagar();
+    abstract public function delete();
 }
