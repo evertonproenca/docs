@@ -182,6 +182,54 @@ return true;
 	return false;
 }
 
+if (!empty($_POST['recursoTer1'] || ['recursoTer2'])) {
+	if(!empty($_POST['recursoTer3'] || ['recursoTer4']|| ['recursoTer5'] || ['recursoTer6']))
+	{
+	return true;
+	}
+} else {
+	echo 'Pelo menos um opção tem que ser selecionada! (8.3 Recurso de Tericeiros)';
+	return false;
+}
+
+if (!empty($_POST['maiorG1'] || ['maiorG2']||['maiorG3'] || ['maiorG4']||['maiorG5'] || ['maiorG6']||['maiorG7'] || ['maiorG8'])) {
+return true;
+} else {
+	echo 'Pelo menos um opção tem que ser selecionada! (8.4 Maiores Gastos)';
+	return false;
+}
+
+if (!empty($_POST['impostoEmpS'] || ['impostoEmpN'])) {
+return true;
+} else {
+	echo 'Pelo menos um opção tem que ser selecionada! (9.1 Impostos devidos pela empresa)';
+	return false;
+}
+
+if (!empty($_POST['autuacaoFiscS'] || ['autuacaoFiscN'])) {
+return true;
+} else {
+	echo 'Pelo menos um opção tem que ser selecionada! (9.2 Autuação Fiscal)';
+	return false;
+}
+
+if (!empty($_POST['acaoJudicialS'] || ['acaoJudicialN'])) {
+return true;
+} else {
+	echo 'Pelo menos um opção tem que ser selecionada! (9.3 Respondendo alguma ação judicial)';
+	return false;
+}
+
+if (!empty($_POST['acessJuridicaS'] || ['acessJuridicaN'])) {
+return true;
+} else {
+	echo 'Pelo menos um opção tem que ser selecionada! (9.6 Assessoria Jurídica)';
+	return false;
+}
+
+
+
+
 
     }
 }
