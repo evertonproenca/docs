@@ -69,7 +69,7 @@ class Controller_Cliente extends Controller {
             $vo->setPontoPreco($_POST['pontoPreco']);			
             $vo->setPontoVarie($_POST['pontoVarie']);           
             $vo->setPontoEspFisico($_POST['pontoEspFisico']);
-            $vo->setPontoLocal$_POST['pontoLocal']);
+            $vo->setPontoLocal($_POST['pontoLocal']);
             $vo->setPontoQuali($_POST['pontoQuali']);
 		    $vo->setPontoOutros($_POST['pontoOutros']);
             $vo->setPontoMAten($_POST['pontoMAten']);			
@@ -140,9 +140,9 @@ class Controller_Cliente extends Controller {
 			
 // Compra    
             
-            $vo->setRazaoFant1$_POST['razaoFant1']);
-			$vo->setRazaoFant2$_POST['razaoFant2']);
-			$vo->setRazaoFant3$_POST['razaoFant3']);
+            $vo->setRazaoFant1($_POST['razaoFant1']);
+			$vo->setRazaoFant2($_POST['razaoFant2']);
+			$vo->setRazaoFant3($_POST['razaoFant3']);
 			$vo->setCidUf1($_POST['cidUf1']);
 			$vo->setCidUf2($_POST['cidUf2']);			
             $vo->setCidUf3($_POST['cidUf3']);

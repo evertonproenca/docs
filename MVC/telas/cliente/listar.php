@@ -4,6 +4,6 @@ Ola <?php echo $this->dados['Razao_social']; ?>
 
 // $this->dados['usuarios']
 
-foreach($this->dados['clientes'] as $usuario) {
-    echo $usuario->getNome();
+foreach($this->dados['clientes'] as $cliente) {
+    echo $cliente->getNome();
 }

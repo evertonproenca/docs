@@ -1,12 +1,12 @@
 <html>
-	<head>
-		<title>Formulario de Cadastro</title>
-	</head>
-	<body>
+    <head>
+        <title></title>
+    </head>
+    <body>
         <div id="topo"></div>
         <div id="menu"></div>
         <div id="conteudo">
             <?php include $tela; ?>
         </div>
-	</body>
+    </body>
 </html>
